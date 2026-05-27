@@ -50,8 +50,8 @@ Internet
 | Virtual Network | `vnet-main` | 10.0.0.0/16 |
 | Subnet (Public) | `subnet-public` | 10.0.1.0/24 |
 | Subnet (Private) | `subnet-private` | 10.0.2.0/24 |
-| VM (Web) | `vm-web` | Ubuntu 22.04 LTS, Standard_B2ats_v2, Public IP |
-| VM (App) | `vm-app` | Ubuntu 22.04 LTS, Standard_B2ats_v2, No Public IP |
+| VM (Web) | `vm-web` | Ubuntu 24.04 LTS, Standard_B2ats_v2, Public IP |
+| VM (App) | `vm-app` | Ubuntu 24.04 LTS, Standard_B2ats_v2, No Public IP |
 | NSG (Web) | `vm-web-nsg` | Ports 22 (restricted), 80, 443 |
 | NSG (App) | `vm-app-nsg` | Port 22 from subnet-public only |
 | Storage Account | `stwebproject2026` | Standard LRS, Private blobs |
@@ -155,7 +155,7 @@ Upload confirmed at **100%** with server-side encryption enabled.
 
 - **Azure Portal** — Resource provisioning and configuration
 - **Azure CLI** — Storage operations and authentication
-- **Ubuntu 22.04 LTS** — VM operating system
+- **Ubuntu 24.04 LTS** — VM operating system
 - **SSH / SCP** — Secure VM access and file transfer
 - **PowerShell / Git Bash** — Local terminal for SSH connectivity
 
