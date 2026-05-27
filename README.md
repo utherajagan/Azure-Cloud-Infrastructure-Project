@@ -166,7 +166,7 @@ Upload confirmed at **100%** with server-side encryption enabled.
 All resources were provisioned on an Azure Free Trial account ($200 credits):
 
 - VMs deallocated when not in use (no compute charges while idle)
-- Standard_B1s chosen as the most cost-effective VM size
+- Standard_B2ats_v2 chosen as the most cost-effective VM size
 - LRS replication selected for storage (lowest redundancy cost)
 - Azure Bastion and Azure Firewall deliberately excluded due to high hourly cost (~$140–$900/month respectively)
 
